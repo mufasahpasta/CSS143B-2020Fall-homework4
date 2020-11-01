@@ -6,6 +6,6 @@ public class BinarySearch {
     // Add a helper function for recursion calls
     public static int binarySearch(int[] data, int target) {
         // homework
-        return -1;  // place holder
+        return -1;  // place holder.
     }
 }
