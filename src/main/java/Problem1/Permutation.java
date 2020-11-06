@@ -12,7 +12,6 @@ public class Permutation {
     }
 
     private static void helper(List<List<Integer>> set, List<Integer> copy, int[] nums) {
-
         if (copy.size() == nums.length) {
             set.add(new ArrayList<>(copy));
         } else {
@@ -23,7 +22,7 @@ public class Permutation {
                 }
                 copy.add(nums[i]);
                 helper(set, copy, nums);
-                 copy.remove(copy.size() - 1);
+                copy.remove(copy.size() - 1);
             }
         }
     }
